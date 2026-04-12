@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verify your SaaSly account</title>
+</head>
+<body style="margin:0;padding:0;background-color:#0a0a0f;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#0a0a0f;padding:48px 16px;">
+    <tr>
+      <td align="center">
+        <table width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;">
+
+          <!-- Logo -->
+          <tr>
+            <td align="center" style="padding-bottom:40px;">
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="background:linear-gradient(135deg,#6c63ff,#a78bfa);border-radius:14px;width:44px;height:44px;text-align:center;vertical-align:middle;">
+                    <span style="font-size:22px;line-height:44px;">⚡</span>
+                  </td>
+                  <td style="padding-left:12px;font-size:22px;font-weight:700;color:#ffffff;letter-spacing:-0.5px;vertical-align:middle;">
+                    SaaSly
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Card -->
+          <tr>
+            <td style="background:#111122;border:1px solid rgba(255,255,255,0.07);border-radius:24px;padding:48px 44px;text-align:center;">
+
+              <!-- Heading -->
+              <p style="margin:0 0 8px;font-size:26px;font-weight:700;color:#ffffff;letter-spacing:-0.5px;">
+                Verify your account
+              </p>
+              <p style="margin:0 0 40px;font-size:15px;color:rgba(255,255,255,0.45);line-height:1.6;">
+                Enter this 8-digit code in the SaaSly tab to confirm your email address.
+              </p>
+
+              <!-- OTP Code -->
+              <div style="display:inline-block;background:rgba(108,99,255,0.1);border:1px solid rgba(108,99,255,0.3);border-radius:16px;padding:20px 40px;margin-bottom:40px;">
+                <span style="font-size:40px;font-weight:800;letter-spacing:12px;color:#a78bfa;font-variant-numeric:tabular-nums;">
+                  {{ .Token }}
+                </span>
+              </div>
+
+              <!-- Expiry note -->
+              <p style="margin:0 0 32px;font-size:13px;color:rgba(255,255,255,0.3);">
+                This code expires in <strong style="color:rgba(255,255,255,0.5);">10 minutes</strong>. Do not share it with anyone.
+              </p>
+
+              <!-- Divider -->
+              <div style="height:1px;background:rgba(255,255,255,0.06);margin:0 0 32px;"></div>
+
+              <!-- Security note -->
+              <p style="margin:0;font-size:13px;color:rgba(255,255,255,0.3);line-height:1.7;">
+                If you didn&rsquo;t create a SaaSly account, you can safely ignore this email.
+                Someone may have entered your email address by mistake.
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding-top:32px;">
+              <p style="margin:0;font-size:12px;color:rgba(255,255,255,0.2);">
+                &copy; 2026 SaaSly &nbsp;&middot;&nbsp; Built by
+                <a href="https://www.upwork.com/freelancers/~01ab365bf80abef051" style="color:#6c63ff;text-decoration:none;">Tommy Cursor</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
